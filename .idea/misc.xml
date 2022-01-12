@@ -7,9 +7,15 @@
         <entry key="..\:/Pembelajaran/Pemograman mobile dasar/Kelompok/tugasMobile/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26205128205128203" />
         <entry key="..\:/Pembelajaran/Pemograman mobile dasar/Kelompok/tugasMobile/app/src/main/res/drawable/ic_alarm.xml" value="0.26205128205128203" />
         <entry key="..\:/Pembelajaran/Pemograman mobile dasar/Kelompok/tugasMobile/app/src/main/res/drawable/ic_bell.xml" value="0.26205128205128203" />
+        <entry key="..\:/Pembelajaran/Pemograman mobile dasar/Kelompok/tugasMobile/app/src/main/res/drawable/ic_bmi.xml" value="0.16644951140065148" />
         <entry key="..\:/Pembelajaran/Pemograman mobile dasar/Kelompok/tugasMobile/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24074074074074073" />
+        <entry key="..\:/Pembelajaran/Pemograman mobile dasar/Kelompok/tugasMobile/app/src/main/res/drawable/ic_param_bmi.xml" value="0.16644951140065148" />
         <entry key="..\:/Pembelajaran/Pemograman mobile dasar/Kelompok/tugasMobile/app/src/main/res/drawable/ic_swipe.xml" value="0.16644951140065148" />
-        <entry key="..\:/Pembelajaran/Pemograman mobile dasar/Kelompok/tugasMobile/app/src/main/res/layout/activity_main.xml" value="0.16799999999999998" />
+        <entry key="..\:/Pembelajaran/Pemograman mobile dasar/Kelompok/tugasMobile/app/src/main/res/drawable/ic_weight.xml" value="0.1680921052631579" />
+        <entry key="..\:/Pembelajaran/Pemograman mobile dasar/Kelompok/tugasMobile/app/src/main/res/font/opensans_sb.xml" value="0.13289473684210526" />
+        <entry key="..\:/Pembelajaran/Pemograman mobile dasar/Kelompok/tugasMobile/app/src/main/res/layout/activity_kalkulator_bmi.xml" value="0.2" />
+        <entry key="..\:/Pembelajaran/Pemograman mobile dasar/Kelompok/tugasMobile/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Pembelajaran/Pemograman mobile dasar/Kelompok/tugasMobile/app/src/main/res/layout/activity_main2.xml" value="0.2" />
         <entry key="..\:/android/app/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>
     </option>
