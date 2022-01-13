@@ -4,24 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
     android:background="@color/backgroundcolor"
+    android:padding="20dp"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:id="@+id/header"
         android:layout_width="match_parent"
-        android:orientation="horizontal"
         android:layout_height="39dp"
         android:layout_marginTop="6dp"
-        android:layout_marginBottom="15dp">
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_gravity="bottom"
             android:layout_width="36dp"
             android:layout_height="36dp"
-            android:src="@color/cardview_dark_background">
-        </de.hdodenhof.circleimageview.CircleImageView>
+            android:layout_gravity="bottom"
+            android:src="@color/cardview_dark_background"></de.hdodenhof.circleimageview.CircleImageView>
 
         <TextView
             android:id="@+id/textView"
@@ -30,24 +29,23 @@
             android:layout_marginLeft="6dp"
             android:layout_marginTop="10dp"
             android:layout_weight="1"
-            android:fontFamily="@font/opensans_semibold"
+            android:fontFamily="@font/opensans_sb"
+            android:text="User"
             android:textColor="@color/white"
-            android:textSize="17dp"
-            android:text="User" >
-        </TextView>
+            android:textSize="17dp"></TextView>
 
         <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_marginTop="9dp"
-            android:src="@drawable/ic_bell"/>
+            android:src="@drawable/ic_bell" />
     </LinearLayout>
 
     <RelativeLayout
         android:id="@+id/atas"
-        android:layout_below="@id/header"
         android:layout_width="match_parent"
         android:layout_height="73dp"
+        android:layout_below="@id/header"
         android:layout_marginBottom="27dp">
 
         <LinearLayout
@@ -60,16 +58,16 @@
                 android:layout_height="46dp"
                 android:layout_marginLeft="27dp"
                 android:layout_marginTop="7dp"
-                android:fontFamily="@font/opensans_semibold"
+                android:fontFamily="@font/opensans_sb"
                 android:text="Riwayat Kegiatan"
                 android:textColor="@color/white"
                 android:textSize="34dp" />
+
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_marginTop="19dp"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_drop">
-            </ImageView>
+                android:layout_marginTop="19dp"
+                android:src="@drawable/ic_drop"></ImageView>
         </LinearLayout>
 
         <TextView
@@ -85,10 +83,10 @@
 
     <LinearLayout
         android:id="@+id/tengah"
-        android:layout_below="@id/atas"
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="497dp"
+        android:layout_below="@id/atas"
+        android:orientation="vertical"
         tools:context=".Horizontal_ScrollView">
 
         <HorizontalScrollView
@@ -103,238 +101,229 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="212dp"
                     android:layout_height="497dp"
-                    app:cardCornerRadius="18dp"
+                    android:layout_marginRight="30dp"
                     app:cardBackgroundColor="#000000"
-                    android:layout_marginRight="30dp">
+                    app:cardCornerRadius="18dp">
 
                     <androidx.cardview.widget.CardView
                         android:id="@+id/g1"
-                        android:layout_marginTop="8dp"
                         android:layout_width="196dp"
                         android:layout_height="196dp"
-                        app:cardCornerRadius="11dp"
-                        android:layout_gravity="center_horizontal">
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="8dp"
+                        app:cardCornerRadius="11dp">
+
                         <ImageView
                             android:layout_width="196dp"
                             android:layout_height="196dp"
-                            android:src="@drawable/gambar1">
-                        </ImageView>
+                            android:src="@drawable/gambar1"></ImageView>
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textSize="17dp"
-                            android:textColor="@color/white"
-                            android:fontFamily="@font/opensans_bold"
                             android:layout_gravity="center"
-                            android:text="Kalkulator BMG">
-                        </TextView>
+                            android:fontFamily="@font/opensans_bold"
+                            android:text="Kalkulator BMG"
+                            android:textColor="@color/white"
+                            android:textSize="17dp"></TextView>
                     </androidx.cardview.widget.CardView>
+
                     <TextView
-                        android:layout_gravity="center"
-                        android:layout_marginTop="10dp"
-                        android:textColor="#B3FFFFFF"
-                        android:layout_marginLeft="15dp"
-                        android:textSize="12dp"
-                        android:fontFamily="@font/opensans_regular"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/opensans_regular"
                         android:text="Kalkulator ini menghitung
                         berapa angka BMI Anda, dan
                         menentukan apakah berat
                         badan Anda ideal, kurang,
                         atau berlebih."
-                        >
-                    </TextView>
-                    <TextView
-                        android:layout_gravity="bottom"
                         android:textColor="#B3FFFFFF"
+                        android:textSize="12dp"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="15dp"
                         android:layout_marginBottom="16dp"
-                        android:layout_marginLeft="15dp"
-                        android:textSize="12dp"
                         android:fontFamily="@font/opensans_bold"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
                         android:text="15 Desember 2021"
-                        >
-                    </TextView>
-                    <TextView
-                        android:layout_gravity="bottom"
                         android:textColor="#B3FFFFFF"
-                        android:layout_marginBottom="32dp"
-                        android:layout_marginLeft="15dp"
-                        android:textSize="12dp"
-                        android:fontFamily="@font/opensans_regular"
+                        android:textSize="12dp"></TextView>
+
+                    <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="32dp"
+                        android:fontFamily="@font/opensans_regular"
                         android:text="Terakhir kali digunakan"
-                        >
-                    </TextView>
+                        android:textColor="#B3FFFFFF"
+                        android:textSize="12dp"></TextView>
                 </androidx.cardview.widget.CardView>
+
                 <androidx.cardview.widget.CardView
                     android:layout_width="212dp"
                     android:layout_height="497dp"
-                    app:cardCornerRadius="18dp"
+                    android:layout_marginRight="30dp"
                     app:cardBackgroundColor="#000000"
-                    android:layout_marginRight="30dp">
+                    app:cardCornerRadius="18dp">
 
                     <androidx.cardview.widget.CardView
                         android:id="@+id/g2"
-                        android:layout_marginTop="8dp"
                         android:layout_width="196dp"
                         android:layout_height="196dp"
-                        app:cardCornerRadius="11dp"
-                        android:layout_gravity="center_horizontal">
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="8dp"
+                        app:cardCornerRadius="11dp">
+
                         <ImageView
                             android:layout_width="196dp"
                             android:layout_height="196dp"
-                            android:src="@drawable/gambar1">
-                        </ImageView>
+                            android:src="@drawable/gambar1"></ImageView>
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textSize="17dp"
-                            android:textColor="@color/white"
-                            android:fontFamily="@font/opensans_bold"
                             android:layout_gravity="center"
-                            android:text="Kalkulator BMG">
-                        </TextView>
+                            android:fontFamily="@font/opensans_bold"
+                            android:text="Kalkulator BMG"
+                            android:textColor="@color/white"
+                            android:textSize="17dp"></TextView>
                     </androidx.cardview.widget.CardView>
+
                     <TextView
-                        android:layout_gravity="center"
-                        android:layout_marginTop="10dp"
-                        android:textColor="#B3FFFFFF"
-                        android:layout_marginLeft="15dp"
-                        android:textSize="12dp"
-                        android:fontFamily="@font/opensans_regular"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/opensans_regular"
                         android:text="Kalkulator ini menghitung
                         berapa angka BMI Anda, dan
                         menentukan apakah berat
                         badan Anda ideal, kurang,
                         atau berlebih."
-                        >
-                    </TextView>
-                    <TextView
-                        android:layout_gravity="bottom"
                         android:textColor="#B3FFFFFF"
+                        android:textSize="12dp"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="15dp"
                         android:layout_marginBottom="16dp"
-                        android:layout_marginLeft="15dp"
-                        android:textSize="12dp"
                         android:fontFamily="@font/opensans_bold"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
                         android:text="15 Desember 2021"
-                        >
-                    </TextView>
-                    <TextView
-                        android:layout_gravity="bottom"
                         android:textColor="#B3FFFFFF"
-                        android:layout_marginBottom="32dp"
-                        android:layout_marginLeft="15dp"
-                        android:textSize="12dp"
-                        android:fontFamily="@font/opensans_regular"
+                        android:textSize="12dp"></TextView>
+
+                    <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="32dp"
+                        android:fontFamily="@font/opensans_regular"
                         android:text="Terakhir kali digunakan"
-                        >
-                    </TextView>
+                        android:textColor="#B3FFFFFF"
+                        android:textSize="12dp"></TextView>
                 </androidx.cardview.widget.CardView>
+
                 <androidx.cardview.widget.CardView
                     android:layout_width="212dp"
                     android:layout_height="497dp"
-                    app:cardCornerRadius="18dp"
+                    android:layout_marginRight="30dp"
                     app:cardBackgroundColor="#000000"
-                    android:layout_marginRight="30dp">
+                    app:cardCornerRadius="18dp">
 
                     <androidx.cardview.widget.CardView
                         android:id="@+id/g3"
-                        android:layout_marginTop="8dp"
                         android:layout_width="196dp"
                         android:layout_height="196dp"
-                        app:cardCornerRadius="11dp"
-                        android:layout_gravity="center_horizontal">
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="8dp"
+                        app:cardCornerRadius="11dp">
+
                         <ImageView
                             android:layout_width="196dp"
                             android:layout_height="196dp"
-                            android:src="@drawable/gambar1">
-                        </ImageView>
+                            android:src="@drawable/gambar1"></ImageView>
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textSize="17dp"
-                            android:textColor="@color/white"
-                            android:fontFamily="@font/opensans_bold"
                             android:layout_gravity="center"
-                            android:text="Kalkulator BMG">
-                        </TextView>
+                            android:fontFamily="@font/opensans_bold"
+                            android:text="Kalkulator BMG"
+                            android:textColor="@color/white"
+                            android:textSize="17dp"></TextView>
                     </androidx.cardview.widget.CardView>
+
                     <TextView
-                        android:layout_gravity="center"
-                        android:layout_marginTop="10dp"
-                        android:textColor="#B3FFFFFF"
-                        android:layout_marginLeft="15dp"
-                        android:textSize="12dp"
-                        android:fontFamily="@font/opensans_regular"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/opensans_regular"
                         android:text="Kalkulator ini menghitung
                         berapa angka BMI Anda, dan
                         menentukan apakah berat
                         badan Anda ideal, kurang,
                         atau berlebih."
-                        >
-                    </TextView>
-                    <TextView
-                        android:layout_gravity="bottom"
                         android:textColor="#B3FFFFFF"
-                        android:layout_marginBottom="16dp"
-                        android:layout_marginLeft="15dp"
-                        android:textSize="12dp"
-                        android:fontFamily="@font/opensans_bold"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="15 Desember 2021"
-                        >
-                    </TextView>
-                    <TextView
-                        android:layout_gravity="bottom"
-                        android:textColor="#B3FFFFFF"
-                        android:layout_marginBottom="32dp"
-                        android:layout_marginLeft="15dp"
-                        android:textSize="12dp"
-                        android:fontFamily="@font/opensans_regular"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Terakhir kali digunakan"
-                        >
-                    </TextView>
-                </androidx.cardview.widget.CardView>
+                        android:textSize="12dp"></TextView>
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="16dp"
+                        android:fontFamily="@font/opensans_bold"
+                        android:text="15 Desember 2021"
+                        android:textColor="#B3FFFFFF"
+                        android:textSize="12dp"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="32dp"
+                        android:fontFamily="@font/opensans_regular"
+                        android:text="Terakhir kali digunakan"
+                        android:textColor="#B3FFFFFF"
+                        android:textSize="12dp"></TextView>
+                </androidx.cardview.widget.CardView>
             </LinearLayout>
         </HorizontalScrollView>
     </LinearLayout>
 
     <LinearLayout
-        android:layout_below="@+id/tengah"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:gravity="center">
+        android:layout_below="@+id/tengah"
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_swipe"
-            android:layout_marginRight="10dp">
-        </ImageView>
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_swipe"></ImageView>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#4DFFFFFF"
             android:text="Swipe untuk lanjut"
-            android:textSize="15dp">
-        </TextView>
+            android:textColor="#4DFFFFFF"
+            android:textSize="15dp"></TextView>
 
     </LinearLayout>
 </RelativeLayout>
