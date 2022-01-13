@@ -233,7 +233,8 @@
             android:layout_width="match_parent"
             android:layout_height="154dp"
             app:cardBackgroundColor="@color/black"
-            app:cardCornerRadius="18dp">
+            app:cardCornerRadius="18dp"
+            android:layout_marginBottom="15dp">
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -280,8 +281,144 @@
                     android:textColor="#FFFFFF"
                     android:textSize="15dp"/>
             </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="18dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="17dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="12dp"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_blue"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="5.6dp">
+                    </ImageView>
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="17dp"
+                        android:fontFamily="@font/opensans_sb"
+                        android:text="<18,5"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="17dp"
+                        android:fontFamily="@font/opensans_sb"
+                        android:text=": Berat badan kurang"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="12dp"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_green"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="5.6dp">
+                    </ImageView>
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="17dp"
+                        android:fontFamily="@font/opensans_sb"
+                        android:text="18,5 - 22,9"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="17dp"
+                        android:fontFamily="@font/opensans_sb"
+                        android:text=": Normal"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="12dp"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_orange"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="5.6dp">
+                    </ImageView>
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="17dp"
+                        android:fontFamily="@font/opensans_sb"
+                        android:text="23 - 29,9"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="17dp"
+                        android:fontFamily="@font/opensans_sb"
+                        android:text=": Berat badan berlebih"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_red"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="5.6dp">
+                    </ImageView>
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="17dp"
+                        android:fontFamily="@font/opensans_sb"
+                        android:text=">30"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="17dp"
+                        android:fontFamily="@font/opensans_sb"
+                        android:text=": Obesitas"/>
+                </LinearLayout>
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
+
+        <ImageButton
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/ic_orange">
+        </ImageButton>
 
     </LinearLayout>
 
