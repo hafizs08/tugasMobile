@@ -12,8 +12,11 @@ class BmiActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_bmi)
-        var intentData = intent.data
-        hasilTinggi.text = intentData.toString()
+//        var intentData = intent.data
+        var intentExtra = intent
+        hasilTinggi.text = "${intentExtra.getStringExtra(EXTRA_TINGGI)}"
+        hasilBerat.text = "${intentExtra.getStringExtra(EXTRA_BERAT)}"
+        result.text = "${intentExtra.getStringExtra(EXTRA_BMI)}"
     }
     fun onBmiButton(view: View) {
         finish()

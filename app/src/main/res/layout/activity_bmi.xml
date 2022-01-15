@@ -178,6 +178,7 @@
                     app:cardCornerRadius="8dp">
 
                     <TextView
+                        android:id="@+id/hasilBerat"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -277,16 +278,18 @@
                     android:text="40"
                     android:textColor="#4DFFFFFF"
                     android:textSize="15dp"/>
+
                 <TextView
-                    android:layout_below="@id/param"
+                    android:id="@+id/result"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@id/param"
                     android:layout_marginLeft="99dp"
                     android:layout_marginTop="7.2dp"
                     android:fontFamily="@font/opensans_bold"
                     android:text="25,2"
                     android:textColor="#FFFFFF"
-                    android:textSize="15dp"/>
+                    android:textSize="15dp" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
