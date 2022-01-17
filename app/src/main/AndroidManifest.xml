@@ -12,11 +12,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloWorld">
         <activity
+            android:name=".alarm"
+            android:exported="false" />
+        <activity
             android:name=".Inputbmi"
             android:exported="false" />
         <activity
             android:name=".BmiActivity"
             android:exported="false" />
+        <activity
+            android:name=".hasilkalkulator"
+            android:exported="true" />
+        <activity
+            android:name=".hasilkalkulasi"
+            android:exported="true" />
         <activity
             android:name=".MainActivity2"
             android:exported="false" />

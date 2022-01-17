@@ -163,7 +163,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:fontFamily="@font/opensans_bold"
-                        android:text="143"
+                        android:text="0"
                         android:textColor="@color/black"
                         android:textSize="15dp"></TextView>
                 </androidx.cardview.widget.CardView>
@@ -183,7 +183,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:fontFamily="@font/opensans_bold"
-                        android:text="58"
+                        android:text="0"
                         android:textColor="@color/black"
                         android:textSize="15dp"></TextView>
                 </androidx.cardview.widget.CardView>
@@ -324,7 +324,7 @@
                         android:textColor="@color/white"
                         android:textSize="17dp"
                         android:fontFamily="@font/opensans_sb"
-                        android:text="18,5"
+                        android:text="< 18,5"
                         android:layout_marginRight="5dp"/>
                     <TextView
                         android:layout_width="wrap_content"
@@ -410,7 +410,7 @@
                         android:textColor="@color/white"
                         android:textSize="17dp"
                         android:fontFamily="@font/opensans_sb"
-                        android:text="30"
+                        android:text="> 30"
                         android:layout_marginRight="5dp"/>
                     <TextView
                         android:layout_width="wrap_content"
