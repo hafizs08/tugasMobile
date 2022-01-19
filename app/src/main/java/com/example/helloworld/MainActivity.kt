@@ -22,4 +22,9 @@ class MainActivity : AppCompatActivity() {
         var intentReply = Intent(this, MainActivity2::class.java)
         startActivity(intentReply)
     }
+
+    fun onWaterButton(view: View) {
+        var intentReply = Intent(this, WaterIntake::class.java)
+        startActivity(intentReply)
+    }
 }

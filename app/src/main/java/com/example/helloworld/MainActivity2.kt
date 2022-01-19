@@ -19,4 +19,8 @@ class MainActivity2 : AppCompatActivity() {
         var intentReply = Intent(this, MainActivity::class.java)
         startActivity(intentReply)
     }
+    fun onWaterButton(view: View){
+        var intentReply = Intent(this, WaterIntake::class.java)
+        startActivity(intentReply)
+    }
 }

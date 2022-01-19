@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/backgroundcolor"
     android:padding="20dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity2">
 
     <LinearLayout
         android:id="@+id/header"
@@ -76,7 +76,8 @@
                 android:layout_marginTop="19dp"
                 android:src="@drawable/ic_drop"
                 android:background="#00000000"
-                android:onClick="onHistoryButton"/>
+                android:onClick="onHistoryButton"
+                android:rotation="90"/>
         </LinearLayout>
 
         <TextView
@@ -111,7 +112,8 @@
                 android:layout_width="27dp"
                 android:layout_height="27dp"
                 android:layout_marginRight="4dp"
-                app:cardBackgroundColor="#00000000">
+                app:cardBackgroundColor="@color/backgroundcolor"
+                android:outlineSpotShadowColor="@color/backgroundcolor">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -123,8 +125,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:outlineSpotShadowColor="#00FFFFFF"
-                app:cardBackgroundColor="#001C1C1E">
+                app:cardBackgroundColor="@color/backgroundcolor"
+                android:outlineSpotShadowColor="@color/backgroundcolor">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -200,7 +202,8 @@
                 android:layout_width="27dp"
                 android:layout_height="27dp"
                 android:layout_marginRight="4dp"
-                app:cardBackgroundColor="#00000000">
+                app:cardBackgroundColor="@color/backgroundcolor"
+                android:outlineSpotShadowColor="@color/backgroundcolor">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -212,8 +215,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:outlineSpotShadowColor="#00FFFFFF"
-                app:cardBackgroundColor="#001C1C1E">
+                app:cardBackgroundColor="@color/backgroundcolor"
+                android:outlineSpotShadowColor="@color/backgroundcolor">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -289,7 +292,8 @@
                 android:layout_width="27dp"
                 android:layout_height="27dp"
                 android:layout_marginRight="4dp"
-                app:cardBackgroundColor="#00000000">
+                app:cardBackgroundColor="@color/backgroundcolor"
+                android:outlineSpotShadowColor="@color/backgroundcolor">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -301,8 +305,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:outlineSpotShadowColor="#00FFFFFF"
-                app:cardBackgroundColor="#001C1C1E">
+                app:cardBackgroundColor="@color/backgroundcolor"
+                android:outlineSpotShadowColor="@color/backgroundcolor">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -378,7 +382,8 @@
                 android:layout_width="27dp"
                 android:layout_height="27dp"
                 android:layout_marginRight="4dp"
-                app:cardBackgroundColor="#00000000">
+                app:cardBackgroundColor="@color/backgroundcolor"
+                android:outlineSpotShadowColor="@color/backgroundcolor">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -390,8 +395,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:outlineSpotShadowColor="#00FFFFFF"
-                app:cardBackgroundColor="#001C1C1E">
+                app:cardBackgroundColor="@color/backgroundcolor"
+                android:outlineSpotShadowColor="@color/backgroundcolor">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -489,7 +494,8 @@
                 android:layout_width="27dp"
                 android:layout_height="27dp"
                 android:layout_marginRight="4dp"
-                app:cardBackgroundColor="#00000000">
+                app:cardBackgroundColor="@color/backgroundcolor"
+                android:outlineSpotShadowColor="@color/backgroundcolor">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -501,8 +507,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:outlineSpotShadowColor="#00FFFFFF"
-                app:cardBackgroundColor="#001C1C1E">
+                app:cardBackgroundColor="@color/backgroundcolor"
+                android:outlineSpotShadowColor="@color/backgroundcolor">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -578,7 +584,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:fontFamily="@font/opensans_bold"
-                            android:text="Kalkulator BMG"
+                            android:text="Kalkulator BMI"
                             android:textColor="@color/white"
                             android:textSize="17dp"/>
                     </androidx.cardview.widget.CardView>
@@ -621,17 +627,18 @@
                         android:layout_marginTop="8dp"
                         app:cardCornerRadius="11dp">
 
-                        <ImageView
+                        <ImageButton
                             android:layout_width="196dp"
                             android:layout_height="196dp"
-                            android:src="@drawable/gambar1"/>
+                            android:src="@drawable/gambar1"
+                            android:onClick="onWaterButton"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:fontFamily="@font/opensans_bold"
-                            android:text="Kalkulator BMG"
+                            android:text="Asupan Air"
                             android:textColor="@color/white"
                             android:textSize="17dp"/>
                     </androidx.cardview.widget.CardView>
