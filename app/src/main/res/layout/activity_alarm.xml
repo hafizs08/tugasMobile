@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -53,7 +53,8 @@
         android:layout_width="match_parent"
         android:layout_height="73dp"
         android:layout_below="@id/header"
-        android:layout_marginBottom="27dp">
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="59dp">
 
         <LinearLayout
             android:id="@+id/head"
@@ -84,14 +85,62 @@
     </RelativeLayout>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/a1"
         android:layout_width="342dp"
         android:layout_height="118dp"
-        android:layout_below="@id/atas"
-        android:layout_marginLeft="27dp"
         app:cardBackgroundColor="@color/black"
         app:cardCornerRadius="18dp"
-        android:layout_marginBottom="15dp">
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="145dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginBottom="12dp">
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"/>
+
+            <TextClock
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:15"
+                android:textSize="35dp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="7dp"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:text="Ulangi"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="7dp"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:text="Kam, Jum, Sab"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="342dp"
+        android:layout_height="118dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="18dp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="271dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -138,14 +187,12 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/a2"
         android:layout_width="342dp"
         android:layout_height="118dp"
-        android:layout_below="@+id/a1"
-        android:layout_marginLeft="27dp"
         app:cardBackgroundColor="@color/black"
         app:cardCornerRadius="18dp"
-        android:layout_marginBottom="15dp">
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="399dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -156,7 +203,7 @@
             android:layout_marginBottom="12dp">
 
             <Switch
-                android:id="@+id/switch2"
+                android:id="@+id/switch1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="260dp"
@@ -191,57 +238,4 @@
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="342dp"
-        android:layout_height="118dp"
-        android:layout_below="@+id/a2"
-        android:layout_marginLeft="27dp"
-        app:cardBackgroundColor="@color/black"
-        app:cardCornerRadius="18dp"
-        android:layout_marginBottom="15dp">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="17dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginRight="17dp"
-            android:layout_marginBottom="12dp">
-
-            <Switch
-                android:id="@+id/switch3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="260dp"
-                android:layout_marginTop="5dp"
-                android:background="@color/white" />
-
-            <TextClock
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="12:15"
-                android:textColor="@color/white"
-                android:textSize="35dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="7dp"
-                android:layout_marginTop="45dp"
-                android:text="Ulangi"
-                android:textColor="@color/white"
-                android:textSize="17dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="7dp"
-                android:layout_marginTop="70dp"
-                android:text="Kam, Jum, Sab"
-                android:textColor="@color/white"
-                android:textSize="15dp" />
-
-        </RelativeLayout>
-    </androidx.cardview.widget.CardView>
-
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
