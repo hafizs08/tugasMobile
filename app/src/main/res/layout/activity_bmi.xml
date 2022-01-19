@@ -324,7 +324,11 @@
                         android:textColor="@color/white"
                         android:textSize="17dp"
                         android:fontFamily="@font/opensans_sb"
+<<<<<<< Updated upstream
                         android:text="< 18,5"
+=======
+                        android:text="&lt; 18,5"
+>>>>>>> Stashed changes
                         android:layout_marginRight="5dp"/>
                     <TextView
                         android:layout_width="wrap_content"
@@ -410,7 +414,11 @@
                         android:textColor="@color/white"
                         android:textSize="17dp"
                         android:fontFamily="@font/opensans_sb"
+<<<<<<< Updated upstream
                         android:text="> 30"
+=======
+                        android:text="&gt; 30"
+>>>>>>> Stashed changes
                         android:layout_marginRight="5dp"/>
                     <TextView
                         android:layout_width="wrap_content"
