@@ -268,7 +268,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:fontFamily="@font/opensans_bold"
-                            android:text="Kalkulator BMG"
+                            android:text="Asupan Makan"
                             android:textColor="@color/white"
                             android:textSize="17dp"></TextView>
                     </androidx.cardview.widget.CardView>

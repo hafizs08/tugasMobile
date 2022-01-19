@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    android:padding="20dp"
+    tools:context=".makanbang">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#00FFFFFF"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="bottom"
+                android:src="@color/cardview_dark_background"></ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/opensans_sb"
+            android:text="User"
+            android:textColor="@color/white"
+            android:textSize="17dp"></TextView>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="9dp"
+            android:src="@drawable/ic_bell" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/atas"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_below="@id/header"
+        android:layout_marginBottom="27dp">
+
+        <LinearLayout
+            android:id="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/opensans_sb"
+                android:text="Asupan Makan"
+                android:textColor="@color/white"
+                android:textSize="34dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/head"
+            android:layout_marginLeft="27dp"
+            android:fontFamily="@font/opensans_regular"
+            android:text="@string/rabu_15_desember_2021"
+            android:textColor="#4DFFFFFF"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="330dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="150dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="18dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Sandwich Ayam Panggang"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="330dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="190dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="18dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Lemak (gm)            : "
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="10dp"
+            android:text="2,6"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:text="karbohidrat (gm)    : "
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="50dp"
+            android:text="23,9"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="90dp"
+            android:text="protein (gm)           : "
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="90dp"
+            android:text="29,5"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+    </androidx.cardview.widget.CardView>
+    <ImageButton
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="27dp"
+        android:background="@color/black"></ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:text="Fakta-Fakta Nutrisi"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="47dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="345dp"
+        android:text="Serat, Gula, potaisum, dan lain-lain"
+        android:textColor="@color/white"
+        android:textSize="12dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_drop"
+        android:layout_marginTop="329dp"
+        android:layout_marginLeft="325dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="330dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="380dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="18dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="10dp"
+            android:text="Porsi"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="130dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="60dp">
+        </androidx.cardview.widget.CardView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:inputType="number"
+            android:text=""
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="10dp"
+            android:text="Ukuran Porsi"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="130dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="60dp">
+        </androidx.cardview.widget.CardView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:inputType="text"
+            android:text=""
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="80dp"
+            android:text="Tipe Makanan"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="285dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="130dp">
+        </androidx.cardview.widget.CardView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:inputType="text"
+            android:text=""
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="100dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
