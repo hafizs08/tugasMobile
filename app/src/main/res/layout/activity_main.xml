@@ -74,9 +74,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="19dp"
+                android:src="@drawable/ic_drop"
                 android:background="#00000000"
-                android:onClick="onHistoryButton"
-                android:src="@drawable/ic_drop"></ImageButton>
+                android:onClick="onHistoryButton"></ImageButton>
         </LinearLayout>
 
         <TextView
@@ -125,15 +125,15 @@
                         <ImageButton
                             android:layout_width="196dp"
                             android:layout_height="196dp"
-                            android:onClick="onBmiButton"
-                            android:src="@drawable/gambar1"></ImageButton>
+                            android:src="@drawable/gambar1"
+                            android:onClick="onBmiButton"></ImageButton>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:fontFamily="@font/opensans_bold"
-                            android:text="Kalkulator BMI"
+                            android:text="Kalkulator BMG"
                             android:textColor="@color/white"
                             android:textSize="17dp"></TextView>
                     </androidx.cardview.widget.CardView>
@@ -141,10 +141,9 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
+                        android:layout_gravity="center"
                         android:layout_marginLeft="15dp"
-                        android:layout_marginTop="215dp"
-                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
                         android:fontFamily="@font/opensans_regular"
                         android:text="Kalkulator ini menghitung
                         berapa angka BMI Anda, dan
@@ -192,18 +191,17 @@
                         android:layout_marginTop="8dp"
                         app:cardCornerRadius="11dp">
 
-                        <ImageButton
+                        <ImageView
                             android:layout_width="196dp"
                             android:layout_height="196dp"
-                            android:onClick="onWaterButton"
-                            android:src="@drawable/gambar1"></ImageButton>
+                            android:src="@drawable/gambar1"></ImageView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:fontFamily="@font/opensans_bold"
-                            android:text="Asupan Air"
+                            android:text="Kalkulator BMG"
                             android:textColor="@color/white"
                             android:textSize="17dp"></TextView>
                     </androidx.cardview.widget.CardView>
@@ -211,12 +209,15 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
+                        android:layout_gravity="center"
                         android:layout_marginLeft="15dp"
-                        android:layout_marginTop="215dp"
-                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
                         android:fontFamily="@font/opensans_regular"
-                        android:text="Digunakan untuk menghitung total jumlah air yang diminum sehari hari."
+                        android:text="Kalkulator ini menghitung
+                        berapa angka BMI Anda, dan
+                        menentukan apakah berat
+                        badan Anda ideal, kurang,
+                        atau berlebih."
                         android:textColor="#B3FFFFFF"
                         android:textSize="12dp"></TextView>
 

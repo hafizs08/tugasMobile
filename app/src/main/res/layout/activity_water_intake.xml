@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgroundcolor"
-    android:padding="20dp"
     tools:context=".WaterIntake">
 
+<<<<<<< HEAD
     <LinearLayout
         android:id="@+id/header"
         android:layout_width="match_parent"
@@ -392,3 +391,6 @@
     </LinearLayout>
 
 </RelativeLayout>
+=======
+</androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> 96b6c985f09d81f2d432c91c9e86643bfd8c6928

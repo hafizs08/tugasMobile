@@ -2,14 +2,13 @@ package com.example.helloworld
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import kotlinx.android.synthetic.main.activity_water_intake.*
 
 class WaterIntake : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_water_intake)
     }
+<<<<<<< HEAD
 
 
     fun onBa(view: View) {
@@ -66,4 +65,6 @@ class WaterIntake : AppCompatActivity() {
             sisa.setText("${0}")
         }
     }
+=======
+>>>>>>> 96b6c985f09d81f2d432c91c9e86643bfd8c6928
 }

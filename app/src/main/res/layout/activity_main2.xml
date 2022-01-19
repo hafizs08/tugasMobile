@@ -26,7 +26,7 @@
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:layout_gravity="bottom"
-                android:src="@color/cardview_dark_background" />
+                android:src="@color/cardview_dark_background"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -39,7 +39,7 @@
             android:fontFamily="@font/opensans_sb"
             android:text="User"
             android:textColor="@color/white"
-            android:textSize="17dp" />
+            android:textSize="17dp"/>
 
         <ImageView
             android:layout_width="24dp"
@@ -74,10 +74,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="19dp"
-                android:background="#00000000"
-                android:onClick="onHistoryButton"
                 android:src="@drawable/ic_drop"
-                android:rotation="90"/>
+                android:background="#00000000"
+                android:onClick="onHistoryButton"/>
         </LinearLayout>
 
         <TextView
@@ -112,8 +111,7 @@
                 android:layout_width="27dp"
                 android:layout_height="27dp"
                 android:layout_marginRight="4dp"
-                app:cardBackgroundColor="@color/backgroundcolor"
-                android:outlineSpotShadowColor="@color/backgroundcolor">
+                app:cardBackgroundColor="#00000000">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -125,8 +123,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:cardBackgroundColor="@color/backgroundcolor"
-                android:outlineSpotShadowColor="@color/backgroundcolor">
+                android:outlineSpotShadowColor="#00FFFFFF"
+                app:cardBackgroundColor="#001C1C1E">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -141,7 +139,7 @@
                         android:fontFamily="@font/opensans_sb"
                         android:text="127"
                         android:textColor="@color/white"
-                        android:textSize="17dp" />
+                        android:textSize="17dp"/>
 
                     <TextView
                         android:id="@+id/wType"
@@ -152,7 +150,7 @@
                         android:fontFamily="@font/opensans_regular"
                         android:text="Lb"
                         android:textColor="#4DFFFFFF"
-                        android:textSize="12dp" />
+                        android:textSize="12dp"/>
                 </RelativeLayout>
 
                 <ImageView
@@ -173,7 +171,7 @@
                     android:paddingRight="43dp"
                     android:text="18"
                     android:textColor="#4DFFFFFF"
-                    android:textSize="12dp" />
+                    android:textSize="12dp"/>
 
                 <TextView
                     android:id="@+id/wTypeR"
@@ -185,7 +183,7 @@
                     android:fontFamily="@font/opensans_regular"
                     android:text="LB Left"
                     android:textColor="#4DFFFFFF"
-                    android:textSize="12dp" />
+                    android:textSize="12dp"/>
             </androidx.cardview.widget.CardView>
 
         </LinearLayout>
@@ -202,8 +200,7 @@
                 android:layout_width="27dp"
                 android:layout_height="27dp"
                 android:layout_marginRight="4dp"
-                app:cardBackgroundColor="@color/backgroundcolor"
-                android:outlineSpotShadowColor="@color/backgroundcolor">
+                app:cardBackgroundColor="#00000000">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -215,8 +212,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:cardBackgroundColor="@color/backgroundcolor"
-                android:outlineSpotShadowColor="@color/backgroundcolor">
+                android:outlineSpotShadowColor="#00FFFFFF"
+                app:cardBackgroundColor="#001C1C1E">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -231,7 +228,7 @@
                         android:fontFamily="@font/opensans_sb"
                         android:text="375"
                         android:textColor="@color/white"
-                        android:textSize="17dp" />
+                        android:textSize="17dp"/>
 
                     <TextView
                         android:id="@+id/eType"
@@ -242,7 +239,7 @@
                         android:fontFamily="@font/opensans_regular"
                         android:text="Kcal"
                         android:textColor="#4DFFFFFF"
-                        android:textSize="12dp" />
+                        android:textSize="12dp"/>
                 </RelativeLayout>
 
                 <ImageView
@@ -263,7 +260,7 @@
                     android:paddingRight="53dp"
                     android:text="2125"
                     android:textColor="#4DFFFFFF"
-                    android:textSize="12dp" />
+                    android:textSize="12dp"/>
 
                 <TextView
                     android:id="@+id/eTypeR"
@@ -275,7 +272,7 @@
                     android:fontFamily="@font/opensans_regular"
                     android:text="Kcal Left"
                     android:textColor="#4DFFFFFF"
-                    android:textSize="12dp" />
+                    android:textSize="12dp"/>
             </androidx.cardview.widget.CardView>
 
         </LinearLayout>
@@ -292,8 +289,7 @@
                 android:layout_width="27dp"
                 android:layout_height="27dp"
                 android:layout_marginRight="4dp"
-                app:cardBackgroundColor="@color/backgroundcolor"
-                android:outlineSpotShadowColor="@color/backgroundcolor">
+                app:cardBackgroundColor="#00000000">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -305,8 +301,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:cardBackgroundColor="@color/backgroundcolor"
-                android:outlineSpotShadowColor="@color/backgroundcolor">
+                android:outlineSpotShadowColor="#00FFFFFF"
+                app:cardBackgroundColor="#001C1C1E">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -321,7 +317,7 @@
                         android:fontFamily="@font/opensans_sb"
                         android:text="23"
                         android:textColor="@color/white"
-                        android:textSize="17dp" />
+                        android:textSize="17dp"/>
 
                     <TextView
                         android:id="@+id/waType"
@@ -332,7 +328,7 @@
                         android:fontFamily="@font/opensans_regular"
                         android:text="Oz"
                         android:textColor="#4DFFFFFF"
-                        android:textSize="12dp" />
+                        android:textSize="12dp"/>
                 </RelativeLayout>
 
                 <ImageView
@@ -353,7 +349,7 @@
                     android:paddingRight="43dp"
                     android:text="45"
                     android:textColor="#4DFFFFFF"
-                    android:textSize="12dp" />
+                    android:textSize="12dp"/>
 
                 <TextView
                     android:id="@+id/waTypeR"
@@ -365,7 +361,7 @@
                     android:fontFamily="@font/opensans_regular"
                     android:text="Oz Left"
                     android:textColor="#4DFFFFFF"
-                    android:textSize="12dp" />
+                    android:textSize="12dp"/>
             </androidx.cardview.widget.CardView>
 
         </LinearLayout>
@@ -382,8 +378,7 @@
                 android:layout_width="27dp"
                 android:layout_height="27dp"
                 android:layout_marginRight="4dp"
-                app:cardBackgroundColor="@color/backgroundcolor"
-                android:outlineSpotShadowColor="@color/backgroundcolor">
+                app:cardBackgroundColor="#00000000">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -395,8 +390,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:cardBackgroundColor="@color/backgroundcolor"
-                android:outlineSpotShadowColor="@color/backgroundcolor">
+                android:outlineSpotShadowColor="#00FFFFFF"
+                app:cardBackgroundColor="#001C1C1E">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -411,7 +406,7 @@
                         android:fontFamily="@font/opensans_sb"
                         android:text="07"
                         android:textColor="@color/white"
-                        android:textSize="17dp" />
+                        android:textSize="17dp"/>
 
                     <TextView
                         android:id="@+id/bType1"
@@ -423,7 +418,7 @@
                         android:fontFamily="@font/opensans_regular"
                         android:text="Hours"
                         android:textColor="#4DFFFFFF"
-                        android:textSize="12dp" />
+                        android:textSize="12dp"/>
 
                     <TextView
                         android:id="@+id/bNumber2"
@@ -434,7 +429,7 @@
                         android:fontFamily="@font/opensans_sb"
                         android:text="45"
                         android:textColor="@color/white"
-                        android:textSize="17dp" />
+                        android:textSize="17dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -444,7 +439,7 @@
                         android:fontFamily="@font/opensans_regular"
                         android:text="Mins"
                         android:textColor="#4DFFFFFF"
-                        android:textSize="12dp" />
+                        android:textSize="12dp"/>
 
                 </RelativeLayout>
 
@@ -466,7 +461,7 @@
                     android:paddingRight="43dp"
                     android:text="45"
                     android:textColor="#4DFFFFFF"
-                    android:textSize="12dp" />
+                    android:textSize="12dp"/>
 
                 <TextView
                     android:id="@+id/bTypeR"
@@ -478,7 +473,7 @@
                     android:fontFamily="@font/opensans_regular"
                     android:text="Oz Left"
                     android:textColor="#4DFFFFFF"
-                    android:textSize="12dp" />
+                    android:textSize="12dp"/>
             </androidx.cardview.widget.CardView>
 
         </LinearLayout>
@@ -494,8 +489,7 @@
                 android:layout_width="27dp"
                 android:layout_height="27dp"
                 android:layout_marginRight="4dp"
-                app:cardBackgroundColor="@color/backgroundcolor"
-                android:outlineSpotShadowColor="@color/backgroundcolor">
+                app:cardBackgroundColor="#00000000">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -507,8 +501,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:cardBackgroundColor="@color/backgroundcolor"
-                android:outlineSpotShadowColor="@color/backgroundcolor">
+                android:outlineSpotShadowColor="#00FFFFFF"
+                app:cardBackgroundColor="#001C1C1E">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -523,7 +517,7 @@
                         android:fontFamily="@font/opensans_sb"
                         android:text="572"
                         android:textColor="@color/white"
-                        android:textSize="17dp" />
+                        android:textSize="17dp"/>
 
                     <TextView
                         android:id="@+id/enType"
@@ -534,7 +528,7 @@
                         android:fontFamily="@font/opensans_regular"
                         android:text="Kcal"
                         android:textColor="#4DFFFFFF"
-                        android:textSize="12dp" />
+                        android:textSize="12dp"/>
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -576,17 +570,17 @@
                         <ImageButton
                             android:layout_width="196dp"
                             android:layout_height="196dp"
-                            android:onClick="onBmiButton"
-                            android:src="@drawable/gambar1" />
+                            android:src="@drawable/gambar1"
+                            android:onClick="onBmiButton"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:fontFamily="@font/opensans_bold"
-                            android:text="Kalkulator BMI"
+                            android:text="Kalkulator BMG"
                             android:textColor="@color/white"
-                            android:textSize="17dp" />
+                            android:textSize="17dp"/>
                     </androidx.cardview.widget.CardView>
 
                     <TextView
@@ -598,7 +592,7 @@
                         android:fontFamily="@font/opensans_regular"
                         android:text="Terakhir kali digunakan"
                         android:textColor="#B3FFFFFF"
-                        android:textSize="12dp" />
+                        android:textSize="12dp"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -609,61 +603,7 @@
                         android:fontFamily="@font/opensans_bold"
                         android:text="15 Desember 2021"
                         android:textColor="#B3FFFFFF"
-                        android:textSize="12dp" />
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="212dp"
-                    android:layout_height="270dp"
-                    android:layout_marginRight="30dp"
-                    app:cardBackgroundColor="#000000"
-                    app:cardCornerRadius="18dp">
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="196dp"
-                        android:layout_height="196dp"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="8dp"
-                        app:cardCornerRadius="11dp">
-
-                        <ImageButton
-                            android:layout_width="196dp"
-                            android:layout_height="196dp"
-                            android:onClick="onWaterButton"
-                            android:src="@drawable/gambar1"></ImageButton>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:fontFamily="@font/opensans_bold"
-                            android:text="Asupan Air"
-                            android:textColor="@color/white"
-                            android:textSize="17dp" />
-                    </androidx.cardview.widget.CardView>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="bottom"
-                        android:layout_marginLeft="21dp"
-                        android:layout_marginBottom="35dp"
-                        android:fontFamily="@font/opensans_regular"
-                        android:text="Terakhir kali digunakan"
-                        android:textColor="#B3FFFFFF"
-                        android:textSize="12dp" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="bottom"
-                        android:layout_marginLeft="21dp"
-                        android:layout_marginBottom="15dp"
-                        android:fontFamily="@font/opensans_bold"
-                        android:text="15 Desember 2021"
-                        android:textColor="#B3FFFFFF"
-                        android:textSize="12dp" />
+                        android:textSize="12dp"/>
 
                 </androidx.cardview.widget.CardView>
 
@@ -684,7 +624,7 @@
                         <ImageView
                             android:layout_width="196dp"
                             android:layout_height="196dp"
-                            android:src="@drawable/gambar1" />
+                            android:src="@drawable/gambar1"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -693,7 +633,7 @@
                             android:fontFamily="@font/opensans_bold"
                             android:text="Kalkulator BMG"
                             android:textColor="@color/white"
-                            android:textSize="17dp" />
+                            android:textSize="17dp"/>
                     </androidx.cardview.widget.CardView>
 
                     <TextView
@@ -705,7 +645,7 @@
                         android:fontFamily="@font/opensans_regular"
                         android:text="Terakhir kali digunakan"
                         android:textColor="#B3FFFFFF"
-                        android:textSize="12dp" />
+                        android:textSize="12dp"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -716,7 +656,60 @@
                         android:fontFamily="@font/opensans_bold"
                         android:text="15 Desember 2021"
                         android:textColor="#B3FFFFFF"
-                        android:textSize="12dp" />
+                        android:textSize="12dp"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="212dp"
+                    android:layout_height="270dp"
+                    android:layout_marginRight="30dp"
+                    app:cardBackgroundColor="#000000"
+                    app:cardCornerRadius="18dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="196dp"
+                        android:layout_height="196dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="8dp"
+                        app:cardCornerRadius="11dp">
+
+                        <ImageView
+                            android:layout_width="196dp"
+                            android:layout_height="196dp"
+                            android:src="@drawable/gambar1"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/opensans_bold"
+                            android:text="Kalkulator BMG"
+                            android:textColor="@color/white"
+                            android:textSize="17dp"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="21dp"
+                        android:layout_marginBottom="35dp"
+                        android:fontFamily="@font/opensans_regular"
+                        android:text="Terakhir kali digunakan"
+                        android:textColor="#B3FFFFFF"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="21dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/opensans_bold"
+                        android:text="15 Desember 2021"
+                        android:textColor="#B3FFFFFF"
+                        android:textSize="12dp"/>
 
                 </androidx.cardview.widget.CardView>
 
@@ -735,14 +728,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
-            android:src="@drawable/ic_swipe" />
+            android:src="@drawable/ic_swipe"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Swipe untuk lanjut"
             android:textColor="#4DFFFFFF"
-            android:textSize="15dp" />
+            android:textSize="15dp"/>
 
     </LinearLayout>
 </RelativeLayout>
