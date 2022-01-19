@@ -16,7 +16,10 @@ class MainActivity2 : AppCompatActivity() {
     }
 
     fun onHistoryButton(view: View) {
-        var intentReply = Intent(this, MainActivity::class.java)
+        finish()
+    }
+    fun onWaterButton(view: View){
+        var intentReply = Intent(this, WaterIntake::class.java)
         startActivity(intentReply)
     }
 }
