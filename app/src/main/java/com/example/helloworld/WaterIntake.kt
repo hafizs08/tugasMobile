@@ -14,11 +14,11 @@ class WaterIntake : AppCompatActivity() {
 
     fun onBa(view: View) {
         var total = minum.text.toString().toDouble()
-        minum.setText("${total + 6}")
+        minum.setText(String.format("%.2f", total + 3.38))
         var baik = ideal.text.toString().toDouble()
         var goals = target.text.toString().toDouble()
 
-        if (minum.text.toString().toDouble() <= ideal.text.toString().toFloat() && sisa.text.toString().toDouble() >= 6) {
+        if (minum.text.toString().toDouble() <= ideal.text.toString().toFloat() && sisa.text.toString().toDouble() >= 3.38) {
             sisa.setText("${goals - minum.text.toString().toDouble()}")
         }
         else{
@@ -28,11 +28,11 @@ class WaterIntake : AppCompatActivity() {
 
     fun onBb(view: View) {
         var total = minum.text.toString().toDouble()
-        minum.setText("${total + 12}")
+        minum.setText(String.format("%.2f", total + 6.76))
         var baik = ideal.text.toString().toDouble()
         var goals = target.text.toString().toDouble()
 
-        if (minum.text.toString().toDouble() <= ideal.text.toString().toFloat() && sisa.text.toString().toDouble() >= 6) {
+        if (minum.text.toString().toDouble() <= ideal.text.toString().toFloat() && sisa.text.toString().toDouble() >= 6.76) {
             sisa.setText("${goals - minum.text.toString().toDouble()}")
         }
         else{
@@ -42,11 +42,11 @@ class WaterIntake : AppCompatActivity() {
 
     fun onBc(view: View) {
         var total = minum.text.toString().toDouble()
-        minum.setText("${total + 18}")
+        minum.setText(String.format("%.2f", total + 10.14))
         var baik = ideal.text.toString().toDouble()
         var goals = target.text.toString().toDouble()
 
-        if (minum.text.toString().toDouble() <= ideal.text.toString().toFloat() && sisa.text.toString().toDouble() >= 6) {
+        if (minum.text.toString().toDouble() <= ideal.text.toString().toFloat() && sisa.text.toString().toDouble() >= 10.14) {
             sisa.setText("${goals - minum.text.toString().toDouble()}")
         }
         else{
@@ -56,11 +56,10 @@ class WaterIntake : AppCompatActivity() {
 
     fun onBd(view: View) {
         var total = minum.text.toString().toDouble()
-        minum.setText("${total + 24}")
+        minum.setText(String.format("%.2f", total + 13.52))
         var baik = ideal.text.toString().toDouble()
         var goals = target.text.toString().toDouble()
-
-        if (minum.text.toString().toDouble() <= ideal.text.toString().toFloat() && sisa.text.toString().toDouble() >= 6) {
+        if (minum.text.toString().toDouble() <= ideal.text.toString().toFloat() && sisa.text.toString().toDouble() >= 13.52) {
             sisa.setText("${goals - minum.text.toString().toDouble()}")
         }
         else{
