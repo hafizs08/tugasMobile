@@ -27,4 +27,9 @@ class MainActivity : AppCompatActivity() {
         var intentReply = Intent(this, WaterIntake::class.java)
         startActivity(intentReply)
     }
+
+    fun onEatButton(view: View){
+        var intentReply = Intent(this, makanbang::class.java)
+        startActivity(intentReply)
+    }
 }

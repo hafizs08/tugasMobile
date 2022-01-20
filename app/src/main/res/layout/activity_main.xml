@@ -258,10 +258,11 @@
                         android:layout_marginTop="8dp"
                         app:cardCornerRadius="11dp">
 
-                        <ImageView
+                        <ImageButton
                             android:layout_width="196dp"
                             android:layout_height="196dp"
-                            android:src="@drawable/gambar1"></ImageView>
+                            android:onClick="onEatButton"
+                            android:src="@drawable/gambar1"></ImageButton>
 
                         <TextView
                             android:layout_width="wrap_content"

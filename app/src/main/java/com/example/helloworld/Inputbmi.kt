@@ -36,7 +36,7 @@ class Inputbmi : AppCompatActivity() {
         var bmiHasil = bmiValue.toString()
 
         var intentReply = Intent(this, BmiActivity::class.java)
-        intentReply.setData(Uri.parse("custom://$inputTg"))
+//        intentReply.setData(Uri.parse("custom://$inputTg"))
 //        intentReply.setData(Uri.parse(inputTg))
 //        intentReply.setData(Uri.parse(inputBr))
         intentReply.putExtra(EXTRA_TINGGI, inputTg)

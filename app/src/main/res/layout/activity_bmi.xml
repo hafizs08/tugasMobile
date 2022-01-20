@@ -26,7 +26,7 @@
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:layout_gravity="bottom"
-                android:src="@color/cardview_dark_background"></ImageView>
+                android:src="@color/cardview_dark_background"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -39,7 +39,7 @@
             android:fontFamily="@font/opensans_sb"
             android:text="User"
             android:textColor="@color/white"
-            android:textSize="17dp"></TextView>
+            android:textSize="17dp"/>
 
         <ImageView
             android:layout_width="24dp"
@@ -113,7 +113,7 @@
                     android:fontFamily="@font/opensans_sb"
                     android:text="Tinggi"
                     android:textColor="#B3FFFFFF"
-                    android:textSize="17dp"></TextView>
+                    android:textSize="17dp"/>
 
                 <TextView
                     android:id="@+id/berat"
@@ -136,7 +136,7 @@
                     android:text=":"
                     android:textColor="#B3FFFFFF"
                     android:textSize="17dp"
-                    android:layout_marginLeft="4dp"></TextView>
+                    android:layout_marginLeft="4dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -163,9 +163,9 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:fontFamily="@font/opensans_bold"
-                        android:text="143"
+                        android:hint="0"
                         android:textColor="@color/black"
-                        android:textSize="15dp"></TextView>
+                        android:textSize="15dp"/>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -183,9 +183,9 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:fontFamily="@font/opensans_bold"
-                        android:text="58"
+                        android:hint="0"
                         android:textColor="@color/black"
-                        android:textSize="15dp"></TextView>
+                        android:textSize="15dp"/>
                 </androidx.cardview.widget.CardView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -223,7 +223,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/white"
-                    android:onClick="onBmiButton"></ImageButton>
+                    android:onClick="onBmiButton"/>
                 <TextView
                     android:layout_width="70dp"
                     android:layout_height="wrap_content"

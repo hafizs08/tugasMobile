@@ -26,7 +26,7 @@
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:layout_gravity="bottom"
-                android:src="@color/cardview_dark_background"></ImageView>
+                android:src="@color/cardview_dark_background" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -39,7 +39,7 @@
             android:fontFamily="@font/opensans_sb"
             android:text="User"
             android:textColor="@color/white"
-            android:textSize="17dp"></TextView>
+            android:textSize="17dp" />
 
         <ImageView
             android:layout_width="24dp"
@@ -88,23 +88,37 @@
         android:layout_height="30dp"
         android:layout_marginLeft="27dp"
         android:layout_marginTop="150dp"
-        app:cardBackgroundColor="@color/black"
+        app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="18dp">
 
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="5dp"
-            android:text="Sandwich Ayam Panggang"
-            android:textColor="@color/white"
-            android:textSize="15dp" />
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/opensans_bold"
+                android:text="Jenis Makanan"
+                android:textColor="@color/black" />
+
+            <Spinner
+                android:id="@+id/jenisMakanan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:textSize="15sp" />
+        </LinearLayout>
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="330dp"
-        android:layout_height="120dp"
+        android:layout_height="180dp"
         android:layout_marginLeft="27dp"
         android:layout_marginTop="190dp"
         app:cardBackgroundColor="@color/black"
@@ -115,7 +129,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
-            android:text="Lemak (gm)            : "
+            android:text="Lemak                      : "
             android:textColor="@color/white"
             android:textSize="15dp" />
 
@@ -151,9 +165,43 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="90dp"
-            android:text="protein (gm)           : "
+            android:text="protein (gm)            : "
             android:textColor="@color/white"
             android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="130dp"
+            android:text="Energi Total             : "
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Kcal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="130dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="130dp"
+            android:text="Kcal"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+        </LinearLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -165,42 +213,47 @@
             android:textSize="15dp" />
 
     </androidx.cardview.widget.CardView>
+
     <ImageButton
         android:layout_width="330dp"
         android:layout_height="50dp"
-        android:layout_marginTop="320dp"
         android:layout_marginLeft="27dp"
-        android:background="@color/black"></ImageButton>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="15dp"
-        android:textColor="@color/white"
-        android:text="Fakta-Fakta Nutrisi"
-        android:layout_marginTop="325dp"
-        android:layout_marginLeft="47dp"/>
+        android:layout_marginTop="390dp"
+        android:background="@color/black" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="47dp"
-        android:layout_marginTop="345dp"
+        android:layout_marginTop="395dp"
+        android:text="Fakta-Fakta Nutrisi"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:fontFamily="@font/opensans_bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="418dp"
         android:text="Serat, Gula, potaisum, dan lain-lain"
         android:textColor="@color/white"
-        android:textSize="12dp" />
+        android:textSize="12dp"
+        android:fontFamily="@font/opensans_bold"/>
+
     <ImageView
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:src="@drawable/ic_drop"
-        android:layout_marginTop="329dp"
-        android:layout_marginLeft="325dp"/>
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/ic_drop" />
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/f"
         android:layout_width="330dp"
         android:layout_height="150dp"
         android:layout_marginLeft="27dp"
-        android:layout_marginTop="380dp"
+        android:layout_marginTop="460dp"
         app:cardBackgroundColor="@color/black"
         app:cardCornerRadius="18dp">
 
@@ -211,31 +264,32 @@
             android:layout_marginTop="10dp"
             android:text="Porsi"
             android:textColor="@color/white"
-            android:textSize="12dp" />
+            android:textSize="12dp"
+            android:fontFamily="@font/opensans_bold"/>
 
         <androidx.cardview.widget.CardView
             android:layout_width="130dp"
             android:layout_height="2dp"
             android:layout_marginLeft="27dp"
-            android:layout_marginTop="60dp">
-        </androidx.cardview.widget.CardView>
+            android:layout_marginTop="60dp"></androidx.cardview.widget.CardView>
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:textSize="15dp"
-            android:textColor="@color/white"
-            android:inputType="number"
-            android:text=""
             android:layout_marginLeft="27dp"
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="30dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="180dp"
             android:layout_marginTop="10dp"
-            android:text="Ukuran Porsi"
+            android:text="Ukuran Porsi (gr)"
             android:textColor="@color/white"
             android:textSize="12dp" />
 
@@ -243,18 +297,17 @@
             android:layout_width="130dp"
             android:layout_height="2dp"
             android:layout_marginLeft="180dp"
-            android:layout_marginTop="60dp">
-        </androidx.cardview.widget.CardView>
+            android:layout_marginTop="60dp"/>
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:textSize="15dp"
-            android:textColor="@color/white"
-            android:inputType="text"
-            android:text=""
             android:layout_marginLeft="180dp"
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="30dp"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -269,21 +322,28 @@
             android:layout_width="285dp"
             android:layout_height="2dp"
             android:layout_marginLeft="27dp"
-            android:layout_marginTop="130dp">
-        </androidx.cardview.widget.CardView>
+            android:layout_marginTop="130dp"></androidx.cardview.widget.CardView>
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="15dp"
-            android:textColor="@color/white"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:layout_marginTop="100dp"
             android:inputType="text"
             android:text=""
-            android:layout_marginLeft="27dp"
-            android:layout_marginTop="100dp"/>
+            android:textColor="@color/white"
+            android:textSize="15dp" />
 
     </androidx.cardview.widget.CardView>
 
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/f"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="27dp"
+        android:onClick="onSaveMakan"
+        android:text="Simpan" />
 
 </RelativeLayout>
