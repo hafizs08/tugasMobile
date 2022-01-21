@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">hello world</string>
+    <string name="app_name">Hidup Sehat</string>
     <string name="riwayat_kegiatan">Riwayat Kegiatan</string>
     <string name="rabu_15_desember_2021">Rabu, 15 Desember 2021</string>
     <string-array name="item_makanan">
