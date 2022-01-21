@@ -5,18 +5,16 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class Olahraga : AppCompatActivity() {
+class crunch : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_olahraga)
+        setContentView(R.layout.activity_crunch)
     }
     fun next(view: View){
-        var intentReply = Intent(this, crunch::class.java)
+        var intentReply = Intent(this, pendaki::class.java)
         startActivity(intentReply)
     }
-
     fun kembali(view: View){
-        var intentReply = Intent(this, MainActivity::class.java)
-        startActivity(intentReply)
+        finish()
     }
 }

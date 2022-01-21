@@ -26,7 +26,7 @@
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:layout_gravity="bottom"
-                android:src="@color/cardview_dark_background"></ImageView>
+                android:src="@drawable/foto"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -262,7 +262,7 @@
                             android:layout_width="196dp"
                             android:layout_height="196dp"
                             android:onClick="onEatButton"
-                            android:src="@drawable/gambar1"></ImageButton>
+                            android:src="@drawable/gambar1"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -311,6 +311,72 @@
                         android:textColor="#B3FFFFFF"
                         android:textSize="12dp"></TextView>
                 </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="212dp"
+                    android:layout_height="497dp"
+                    android:layout_marginRight="30dp"
+                    app:cardBackgroundColor="#000000"
+                    app:cardCornerRadius="18dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="196dp"
+                        android:layout_height="196dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="8dp"
+                        app:cardCornerRadius="11dp">
+
+                        <ImageButton
+                            android:layout_width="196dp"
+                            android:layout_height="196dp"
+                            android:onClick="onGymButton"
+                            android:src="@drawable/gambar1"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/opensans_bold"
+                            android:text="Olahraga"
+                            android:textColor="@color/white"
+                            android:textSize="17dp"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="215dp"
+                        android:layout_marginRight="10dp"
+                        android:fontFamily="@font/opensans_regular"
+                        android:text="Digunakan untuk melakukan olahraga ringan sehari hari."
+                        android:textColor="#B3FFFFFF"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="16dp"
+                        android:fontFamily="@font/opensans_bold"
+                        android:text="15 Desember 2021"
+                        android:textColor="#B3FFFFFF"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="32dp"
+                        android:fontFamily="@font/opensans_regular"
+                        android:text="Terakhir kali digunakan"
+                        android:textColor="#B3FFFFFF"
+                        android:textSize="12dp"/>
+                </androidx.cardview.widget.CardView>
+
             </LinearLayout>
         </HorizontalScrollView>
     </LinearLayout>

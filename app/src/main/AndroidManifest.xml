@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloWorld">
         <activity
+            android:name=".finish"
+            android:exported="false" />
+        <activity
+            android:name=".pendaki"
+            android:exported="false" />
+        <activity
+            android:name=".crunch"
+            android:exported="false" />
+        <activity
             android:name=".Olahraga"
             android:exported="false" />
         <activity
@@ -19,7 +28,13 @@
             android:exported="false" />
         <activity
             android:name=".login"
-            android:exported="false" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".WaterIntake"
             android:exported="false" />
@@ -31,18 +46,14 @@
             android:exported="false" />
         <activity
             android:name=".alarm"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="false">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

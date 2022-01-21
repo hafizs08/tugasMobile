@@ -32,4 +32,9 @@ class MainActivity : AppCompatActivity() {
         var intentReply = Intent(this, makanbang::class.java)
         startActivity(intentReply)
     }
+
+    fun onGymButton(view: View){
+        var intentReply = Intent(this, Olahraga::class.java)
+        startActivity(intentReply)
+    }
 }
